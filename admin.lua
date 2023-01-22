@@ -1,4 +1,3 @@
-local function Loader()
     if not game:IsLoaded() then game.Loaded:Wait() end
     local c = 'rbxassetid://3570695787'
     function instance(a,a2,a3) local d = Instance.new(a,a2) if a3 then for a,v in next, a3 do d[a] = v end end if a == 'ImageLabel' then if d.Image == 'rbxassetid://3570695787' then d.ScaleType = Enum.ScaleType.Slice d.SliceCenter = Rect.new(100,100,100,100) d.BackgroundTransparency = 1 end end return d end
@@ -642,4 +641,3 @@ local function Loader()
         return admin
     end
     return gadmin
-end
